@@ -1,0 +1,28 @@
+/* Add these styles to your existing App.css */
+
+.sidebar {
+  min-height: 100vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-link {
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.main-content {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Your existing App.css styles below */
